@@ -1,29 +1,29 @@
-Customer Lifetime Value (CLV) Prediction for Online Retail
-Project Overview
+#Customer Lifetime Value (CLV) Prediction for Online Retail
+##Project Overview
 This project focuses on predicting the Customer Lifetime Value (CLV) for an online retail business using historical transactional data. Customer Lifetime Value is a crucial metric that estimates the total revenue a business can reasonably expect from a customer throughout their relationship. By understanding CLV, businesses can optimize marketing spend, improve customer retention strategies, and make data-driven decisions to maximize long-term profitability.
 
 This implementation utilizes probabilistic models, specifically the Beta-Geometric/Negative Binomial Distribution (BG/NBD) model for predicting customer purchasing behavior (frequency and churn) and the Gamma-Gamma model for estimating the average monetary value of transactions.
 
-Dataset
+##Dataset
 The dataset used in this project is the "Online Retail Dataset" available on Kaggle:
 https://www.kaggle.com/datasets/lakshmi25npathi/online-retail-dataset
 
 Please download the Online Retail.xlsx file from the link above and place it in the root directory of this project.
 
-Dataset Columns:
+###Dataset Columns:
 InvoiceNo: Invoice number. A 6-digit integral number uniquely assigned to each transaction. If this code starts with the letter 'c', it indicates a cancellation.
 
-StockCode: Product (item) code. A 5-digit integral number uniquely assigned to each distinct product.
+####StockCode: Product (item) code. A 5-digit integral number uniquely assigned to each distinct product.
 
-Description: Product (item) name.
+####Description: Product (item) name.
 
-Quantity: The quantities of each product (item) per transaction.
+####Quantity: The quantities of each product (item) per transaction.
 
-InvoiceDate: Invoice date and time. The day and time when a transaction was generated.
+####InvoiceDate: Invoice date and time. The day and time when a transaction was generated.
 
-UnitPrice: Unit price. Product price per unit in sterling (£).
+####UnitPrice: Unit price. Product price per unit in sterling (£).
 
-CustomerID: Customer number. A 5-digit integral number uniquely assigned to each customer.
+####CustomerID: Customer number. A 5-digit integral number uniquely assigned to each customer.
 
 Country: Country name. The name of the country where each customer resides.
 
